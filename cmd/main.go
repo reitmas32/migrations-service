@@ -3,8 +3,9 @@ package main
 import (
 	"database/sql"
 	"log"
-	"migrations-service/internal/core/db/migrations"
-	"migrations-service/internal/core/settings"
+
+	"github.com/reitmas32/migrations-service/internal/core/db/migrations"
+	"github.com/reitmas32/migrations-service/internal/core/settings"
 
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/postgres"
