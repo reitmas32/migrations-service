@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/reitmas32/migrations-service/internal/core/db/migrations"
 	"github.com/reitmas32/migrations-service/internal/core/settings"
+	"github.com/reitmas32/migrations-service/migrations-service/db/migrations"
 
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/postgres"
