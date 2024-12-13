@@ -1,0 +1,8 @@
+version: "1"
+packages:
+  - name: "db"
+    path: "./internal/core/db"
+    queries: "./internal/core/db/queries/"
+    schema: "./internal/core/db/schema"
+    engine: "postgresql"
+    emit_interface: false
