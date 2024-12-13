@@ -1,4 +1,4 @@
-module migrations-service
+module github.com/reitmas32/migrations-service
 
 go 1.22.3
 
